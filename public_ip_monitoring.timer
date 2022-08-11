@@ -1,0 +1,9 @@
+[Unit]
+Description=Schedule public IP monitoring hourly
+
+[Timer]
+OnCalendar=hourly
+
+[Install]
+WantedBy=timers.target
+

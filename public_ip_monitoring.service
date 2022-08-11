@@ -1,0 +1,7 @@
+[Unit]
+Description=Detects when the public IP of the running host has changed and sends a mail notification
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/pi/public_ip_monitoring/public_ip_monitoring.sh
+
